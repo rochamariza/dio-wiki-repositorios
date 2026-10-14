@@ -1,0 +1,23 @@
+:root{
+    --red: #FF3E3E;
+    --dark-red: #8d0000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    background-color: white;
+    color: var(--dark-red);
+    padding: 2rem;
+}
+.container button{
+    align-self: center;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: var(--dark-red);
+    border: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
